@@ -16,12 +16,12 @@ int main() {
 
 	int n;
 	scanf("%d", &n);
-	
+
 	int a[n], b[n], c[n], d[n];
 	for (int i = 0; i < n; i++) {
 		scanf("%d %d %d %d", &a[i], &b[i], &c[i], &d[i]);
 	}
-	
+
 	int X[n*n], Y[n*n];
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
@@ -29,15 +29,15 @@ int main() {
 			Y[i*n+j] = c[i] + d[j];
 		}
 	}
-	
+
 	ll sum = 0;
 	sort(Y, Y+n*n);
 	for (int i = 0; i < n*n; i++) {
-        int lowpos = lower_bound(Y, Y+n*n, -X[i]) - Y;
+		int lowpos = lower_bound(Y, Y+n*n, -X[i]) - Y;
 		if (Y[lowpos] == -X[i]) {
-            sum += ((upper_bound(Y, Y+n*n, -X[i])-Y) - lowpos);
-        }
+			sum += ((upper_bound(Y, Y+n*n, -X[i])-Y) - lowpos);
+		}
 	}
-	printf("%lld\n", sum);
-    return 0;
+        printf("%lld\n", sum);
+        return 0;
 }
