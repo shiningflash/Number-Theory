@@ -2,6 +2,7 @@
     @algorithm  : two pointer (GREEDY)
     @complexity : O(N)
     @author     : Amirul Islam
+    @problem    : Pair Sum Problem
 */
 
 #include <bits/stdc++.h>
@@ -31,7 +32,7 @@ bool hasPairSum(int a[], int n, int key) {
 }
 
 int main() {
-    //freopen("in", "r", stdin);
+        //freopen("in", "r", stdin);
 
 	int a[] = {1, 3, 67, 323, 777, 987, 1001};
 	int size = sizeof(a) / sizeof(a[0]);
