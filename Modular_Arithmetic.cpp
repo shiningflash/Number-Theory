@@ -1,7 +1,7 @@
 /*
-	  @algorithm   : Modular Arithmetic
-    @author      : Amirul Islam
-	  @problem     : 100! % 97
+      @algorithm   : Modular Arithmetic
+      @author      : Amirul Islam
+      @problem     : 100! % 97
 */
 
 #include <bits/stdc++.h>
