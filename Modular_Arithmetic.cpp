@@ -15,6 +15,11 @@ const int mx = 1e5+4;
     -----------
     1. (a + b) % m = ( (a % m) + (b % m) ) % m
     2. (a * b) % m = ( (a % m) * (b % m) ) % m 
+
+	Note:
+	* if N is negetive, you have to make it positive
+	* one way can be - adding any mutiple of M with N
+	* e.g. -17 % 5 = (-17 + 100) % 5 = 83 % 5 = 3
     
 */
 
