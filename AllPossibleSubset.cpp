@@ -1,7 +1,7 @@
 /*
     @algorithm  : all possible subset
     @author     : Amirul Islam
-    @complexity : O(N^2)
+    @complexity : O(2^N)
 */
 
 #include <bits/stdc++.h>
@@ -24,3 +24,18 @@ void possibleSubset(int N) {
 int main() {
     possibleSubset(3);
 }
+
+/*
+Input:
+3
+
+Output:
+
+0 
+1 
+0 1 
+2 
+0 2 
+1 2 
+0 1 2 
+*/
