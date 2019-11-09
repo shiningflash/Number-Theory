@@ -1,7 +1,7 @@
 /*
     @algorithm  : all possible subset
     @author     : Amirul Islam
-    @complexity : O(2^N)
+    @complexity : O(N * 2^N)
 */
 
 #include <bits/stdc++.h>
