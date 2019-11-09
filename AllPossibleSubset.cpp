@@ -1,6 +1,6 @@
 /*
     @algorithm  : all possible subset
-	  @author     : Amirul Islam
+    @author     : Amirul Islam
     @complexity : O(N^2)
 */
 
