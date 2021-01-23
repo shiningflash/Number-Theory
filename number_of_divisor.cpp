@@ -6,7 +6,7 @@
 
     @hints  :
     * 
-    * 48 = 1 x 48 = 2 x 24 = 3 x 16 = 4 x 12, total divisor = 10
+    * 48 = 1 x 48 = 2 x 24 = 3 x 16 = 4 x 12, 6 x 8, total divisor = 10
     * efficient way: 2 ^ 4 x 3 ^ 1, from product of power+1, ((4+1) x (1+1)) = 10
     * 
     * N = p1^q1 x p2^q2 x p3^q3 x ...... x pn^qn
